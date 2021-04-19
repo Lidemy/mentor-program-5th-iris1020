@@ -8,14 +8,10 @@
 
 ## 假設我今天去 Google 首頁搜尋框打上：JavaScript 並且按下 Enter，請說出從這一刻開始到我看到搜尋結果為止發生在背後的事情。
 
-1. 我叫瀏覽器送出 request（搜尋 JavaScript）
-2. Google 瀏覽器叫作業系統送出 request （查詢 JavaScript 的 IP 位置）
-3. 作業系統叫網路卡送出 request
-4. 網路卡向 DNS 伺服器送出 request
-5. DNS 伺服器在 Data Base 找到 IP 位置後，response（回傳）給網路卡
-6. 網路卡 response 給作業系統
-7. 作業系統 response 給瀏覽器
-8. 得到搜尋結果
+1. Google 搜尋框 (瀏覽器) request Google Server (雲端)
+2. Google Server request Data Base (資料庫)
+3. Google Server 在 Data Base 找到資料後 response 回瀏覽器
+4. 得到搜尋結果
 
 
 
