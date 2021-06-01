@@ -1,0 +1,80 @@
+body {
+	background: rgba(0, 0, 0, 0.3);
+}
+
+.wrapper {
+	max-width: 645px;
+	background: white;
+	margin: 10% auto; /*margin 左右自動距離，會自動置中*/
+	boxshadow: 1.8px 2.4px 5px 0 rgba(0, 0, 0, 0.3);
+	border-top: solid 8px #fad312;
+	padding: 64px 32px;
+}
+
+.apply-form__title {
+	margin: 0;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.apply-form__dsc {
+	margin-top: 32px;
+	font-size: 14px;
+}
+
+.apply-form__notice {
+	color: #e74149;
+	font-size: 16px;
+	margin-top: 20px;
+}
+
+.input-block {
+	margin-top: 55px;
+}
+
+.input-block__title {
+	font-size: 20px
+}
+
+.input-block__desc {
+	font-size: 14px;
+	margin-top: 8px;
+}
+
+.input-block__input {
+	margin-top: 20px;
+}
+
+.input-block__input input[typr=text] { /*針對 type=text 的 input 做這些事情，其他的  input 沒有要調*/
+	border: solid 1px #d0d0d0;
+	font-size: 16px;
+	padding: 8px;
+}
+
+.input-block__input label {
+	display: block;
+	margin-top: 12px;
+}
+
+.required:after {
+	content: '*';
+	color: #e74149;
+} /*偽元素*/
+
+.apply-form__submit {
+	background: #fad312;
+	color: #000000;
+	font-size: 15px;
+	padding: 12px 32px;
+	margin-top: 48px;
+	border: none;
+	border-radius: 4px;
+}
+
+footer {
+	background: black;
+	color: #999999;
+	font-size: 13px;
+	text-align: center;
+	padding: 24px 12px;
+}
