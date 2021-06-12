@@ -1,0 +1,81 @@
+.wrapper {
+	max-width: 500px;
+	margin: 0 auto;
+	margin-top: 50px;
+	padding: 32px;
+	background: #ADD8E6;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #B0C4DE;
+}
+
+.title {
+	font-size: 30px;
+	color: #FFFFE0;
+	margin-left: 185px;
+
+}
+
+.pins {
+	display: flex;
+	justify-content: space-between;
+	font-size: 50px;
+	color: #FFFFE0;
+	margin-top: -80px;
+}
+
+.todo {
+	display: flex;
+	align-items: center;
+	margin-top: 12px;
+	padding: 12px;
+}
+
+.todo:hover {
+	background-color: #F5FFFA;
+	transition: all .3s linear;
+}
+
+.todo__title {
+	flex:  1;
+	color: #4682B4;
+}
+
+.todo__check {
+	width: 20px;
+	height: 20px;
+	margin-right: 8px;
+}
+
+.todo.done .todo__title {
+	text-decoration: line-through;
+}
+
+.input-todo {
+	margin-left: 125px;
+	margin-top: 20px;
+	border-radius: 10px;
+	background-color: #FFFFE0;
+}
+
+.btn-new {
+	margin-left: 10px;
+	border-radius: 10px;
+	background-color: #FFFFE0;
+	color: #4682B4;
+}
+
+.btn-new:hover {
+	background: #4682B4;
+	color: #FFFFE0;
+}
+
+.btn-delete {
+	border-radius: 10px;
+	background-color: #FFFFE0;
+	color: #4682B4;
+}
+
+.btn-delete:hover {
+	background: #4682B4;
+	color: #FFFFE0;
+}
