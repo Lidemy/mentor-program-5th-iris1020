@@ -17,6 +17,10 @@ document
 				}
 			} else if (radios.length) {
 				isValid = [...radios].some(radio => radio.checked)
+				if (isValid) {
+					let r = element.querySelector("input[type=radio]:checked")
+					values[r.name] = r.value
+				}
 			} else {
 				continue
 			}
@@ -28,5 +32,10 @@ document
 				element.classList.add("hide-error")
 			}
 		}
+
+		if (!hasError) {
+			alert(JSON.stringify(values))	
+		}
+		
 
 })
